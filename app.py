@@ -60,8 +60,7 @@ def post_submit():
         verified, err = verify_solution(payload, ALTCHA_HMAC_KEY, True)
         if not verified:
             return (
-                jsonify({"error": "Invalid Altcha payload", "msg": ALTCHA_HMAC_KEY}),
-                400,
+                jsonify({"error": "Invalid Altcha payload"}), 400
             )
 
         return jsonify({"success": True, "data": form_data})
