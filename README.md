@@ -1,6 +1,9 @@
 # ALTCHA Server Demo for Python
 
-This repository demonstrates the implementation of an ALTCHA server with spam filtering using the [altcha](https://github.com/altcha-org/altcha) Python library. The server provides endpoints for fetching challenges and submitting form data, including verification of Proof-of-Work (PoW) solutions and spam filtering.
+> [!WARNING]
+> DEPRECATED: This repository is no longer maintained. Please refer to [`altcha-lib-py`](https://github.com/altcha-org/altcha-lib-py) for the current implementation and examples.
+
+This repository demonstrates the implementation of an ALTCHA server with spam filtering using the [altcha-lib-py](https://github.com/altcha-org/altcha-lib-py) Python library. The server provides endpoints for fetching challenges and submitting form data, including verification of Proof-of-Work (PoW) solutions and spam filtering.
 
 ## Documentation
 
